@@ -1,0 +1,22 @@
+{
+  "name": "graphql-js-client",
+  "version": "0.3.1",
+  "description": "JS client for making requests to graphQL endpoint",
+  "main": "graph.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Rinjax/graphql-js-client.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "rinjax",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rinjax/graphql-js-client/issues"
+  },
+  "homepage": "https://github.com/Rinjax/graphql-js-client#readme"
+}
