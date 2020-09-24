@@ -28,7 +28,7 @@ const graph = {
 
                 let query = self.buildQueryString(data);
 
-                axios.post(this.url, {query: query})
+                axios.post(self.url, {query: query})
                     .then(response => {
                         resolve(response.data.data[data.endpoint]);
                     })
@@ -54,7 +54,7 @@ const graph = {
                 let query = self.buildQueryString(data);
                 let mutation = 'mutation' + query;
 
-                axios.post(this.url, {query: mutation})
+                axios.post(self.url, {query: mutation})
                     .then(response => {
                         resolve(response.data.data[data.endpoint]);
                     })
